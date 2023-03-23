@@ -1,0 +1,23 @@
+.previw-container {
+    position: absolute;
+    top: 40px;
+}
+
+.preview {
+    position: inherit;
+    top: 0;
+    left: 72vw;
+    background-color: mediumseagreen;
+    border: 5px solid mediumseagreen;
+    border-radius: 5px;
+    box-shadow: lightseagreen 0 5px 20px;
+}
+
+.preview-canvas {
+    width: 11vw;
+    height: 11vw;
+    display: grid;
+    grid-gap: 2px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}

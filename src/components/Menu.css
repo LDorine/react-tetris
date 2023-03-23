@@ -1,0 +1,22 @@
+.menu {
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.btn-start {
+    padding: 10px 40px;
+    font-size: 1.2em;
+    color: #567156;
+    border: 1px solid #567156;
+    border-radius: 15px;
+    box-shadow: #567156 0 0 30px;
+    cursor: pointer;
+}
+
+.btn-start:hover {
+    background-color: #567156;
+    color: white;
+}
