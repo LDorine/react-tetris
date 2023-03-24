@@ -15,7 +15,7 @@ const CanvasPlayer = ({rows, columns, player, resetPlayer
         );
     }, [player, resetPlayer]);
 
-    return [canvas];
+    return canvas;
 };
 
 export {CanvasPlayer}
